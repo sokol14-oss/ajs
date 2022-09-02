@@ -1,0 +1,34 @@
+{
+  "name": "@sokol14-oss/node",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sokol14-oss/ajs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sokol14-oss/ajs/issues"
+  },
+  "homepage": "https://github.com/sokol14-oss/ajs#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "lodash": "^4.17.21",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
+}
